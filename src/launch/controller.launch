@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- <node pkg="autobot" type="lane_detect.py" name="lane_detect" output="screen">
+  </node> -->
+  <node pkg="autobot" type="controller.py" name="controller" output="screen">
+    <param name="use_sim_time"      value="true" />
+  </node>
+
+</launch>
